@@ -1,0 +1,58 @@
+<PISI>
+    <Source>
+        <Name>ruby-net-scp</Name>
+        <Packager>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - net-scp</Summary>
+        <Description xml:lang="en">A pure Ruby implementation of the SCP client protocol.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby-net-scp</Name>
+        <Summary xml:lang="en">RubyGem - net-scp</Summary>
+        <Description xml:lang="en">A pure Ruby implementation of the SCP client protocol.
+</Description>
+        <PartOf>programming.ruby</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/.travis.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/CHANGES.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/LICENSE.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/Manifest</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/README.rdoc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/gem-public_cert.pem</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/lib/net/scp.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/lib/net/scp/download.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/lib/net/scp/errors.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/lib/net/scp/upload.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/lib/net/scp/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/lib/uri/open-scp.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/lib/uri/scp.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/net-scp.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/setup.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/test/common.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/test/test_all.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/test/test_download.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/test/test_scp.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/net-scp-1.2.1/test/test_upload.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/net-scp-1.2.1.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-23</Date>
+            <Version>1.2.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
