@@ -1,6 +1,6 @@
 name       : ruby-net-scp
 version    : 1.2.1
-release    : 2
+release    : 3
 source     :
     - https://rubygems.org/downloads/net-scp-1.2.1.gem : 928ca046246bdbfe304313c903bab95e7b711938ceff4a2c896b91ab59c6122c
 license    : MIT
